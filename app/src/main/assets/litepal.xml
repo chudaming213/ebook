@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="bible_zhiban"></dbname>
+    <version value="4"></version>
+    <list>
+        <mapping class="com.onon.test.bibleapplication.beans.BibleBooks"></mapping>
+        <mapping class="com.onon.test.bibleapplication.beans.BibleChapters"></mapping>
+    </list>
+</litepal>
+
