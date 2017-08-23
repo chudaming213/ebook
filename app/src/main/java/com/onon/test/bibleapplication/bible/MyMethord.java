@@ -1,11 +1,9 @@
-package com.onon.test.bibleapplication;
+package com.onon.test.bibleapplication.bible;
 
 import android.text.Layout;
 import android.text.Selection;
 import android.text.Spannable;
 import android.text.method.LinkMovementMethod;
-import android.text.method.MovementMethod;
-import android.text.style.ClickableSpan;
 import android.view.MotionEvent;
 import android.widget.TextView;
 
