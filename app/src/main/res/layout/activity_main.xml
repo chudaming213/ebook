@@ -15,7 +15,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <com.onon.test.bibleapplication.BibleTextView
+            <com.onon.test.bibleapplication.bible.BibleTextView
                 android:id="@+id/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
