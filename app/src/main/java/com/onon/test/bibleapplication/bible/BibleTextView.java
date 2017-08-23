@@ -1,4 +1,4 @@
-package com.onon.test.bibleapplication;
+package com.onon.test.bibleapplication.bible;
 
 import android.content.Context;
 import android.text.SpannableStringBuilder;
