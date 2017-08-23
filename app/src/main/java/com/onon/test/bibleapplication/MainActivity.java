@@ -59,15 +59,14 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Main2Activity.start(MainActivity.this);
-//                ArrayList<BibleVerses> underline = title.getUnderline();
-//                if (((Button) v).getText().equals("高亮")) {
-//                    title.highlight(underline);
-//                } else {
-//                    title.unHighlight(underline);
-//                }
-//                title.setItemClickable(false);
-//                v.setVisibility(View.GONE);
+                ArrayList<BibleVerses> underline = title.getUnderline();
+                if (((Button) v).getText().equals("高亮")) {
+                    title.highlight(underline);
+                } else {
+                    title.unHighlight(underline);
+                }
+                title.setItemClickable(false);
+                v.setVisibility(View.GONE);
             }
         });
 
