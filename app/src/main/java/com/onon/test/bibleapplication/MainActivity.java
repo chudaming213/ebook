@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         public void onReceive(Context context, Intent intent) {
             List<BibleBooks> all = DataSupport.findAll(BibleBooks.class);
             for (BibleBooks bibleBooks : all) {
-                Log.d("dami", "handleMessage: " + bibleBooks.getBookName());
+                Log.d("dami", "handleMes sage: " + bibleBooks.getBookName());
                 
             }
         }
