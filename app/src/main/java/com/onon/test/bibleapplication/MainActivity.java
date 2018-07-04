@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
             List<BibleBooks> all = DataSupport.findAll(BibleBooks.class);
             for (BibleBooks bibleBooks : all) {
                 Log.d("dami", "handleMessage: " + bibleBooks.getBookName());
+                
             }
         }
     };
