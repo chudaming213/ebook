@@ -28,6 +28,7 @@ public class MyApplication extends LitePalApplication {
     private String DATABASE_NAME = "bible_zhiban.db";
     private File dest;
     private File saveDir;
+    private String tag = "dami";
     Handler endcopyHandler = new Handler() {
         @Override
         public void handleMessage(Message msg) {
@@ -37,7 +38,8 @@ public class MyApplication extends LitePalApplication {
             sendBroadcast(intent);
             List<BibleBooks> all = DataSupport.findAll(BibleBooks.class);
             for (BibleBooks bibleBooks : all) {
-                Log.d("dami", "handleMessage: " + bibleBooks.getBookName());
+
+                Log.d(tag, "handleMessage: " + bibleBooks.getBookName());
             }
         }
     };
